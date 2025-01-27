@@ -1,13 +1,9 @@
 const express=require("express");
-const { Protocol } = require("puppeteer");
-const request=require("request-promise")
 const path=require("path");
-const { json } = require("stream/consumers");
 const fs=require("fs")
-const cheerio = require('cheerio')
 const app=express()
 const PORT=process.env.PORT || 5000;
-const axios=require("axios")
+
 app.use(express.json());
 
 //F1 ENDPOINTS
